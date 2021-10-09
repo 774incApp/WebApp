@@ -1,10 +1,10 @@
-# 774 App (774app)
+# 774incFan WebApp
 
-774 App
+https://774inc.app/
 
 ## Install the dependencies
 ```bash
-yarn
+npm
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
@@ -14,7 +14,7 @@ quasar dev
 
 ### Lint the files
 ```bash
-yarn run lint
+npm run lint
 ```
 
 ### Build the app for production

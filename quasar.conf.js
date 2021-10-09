@@ -30,8 +30,7 @@ module.exports = configure((ctx) => ({
   // --> boot files are part of "main.js"
   // https://v2.quasar.dev/quasar-cli/boot-files
   boot: [
-    'i18n',
-    'axios',
+    'pinia',
   ],
 
   // https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
@@ -49,13 +48,13 @@ module.exports = configure((ctx) => ({
     // 'line-awesome',
     // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
-    'roboto-font', // optional, you are not bound to it
+    // 'roboto-font', // optional, you are not bound to it
     'material-icons', // optional, you are not bound to it
   ],
 
   // Full list of options: https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
   build: {
-    vueRouterMode: 'hash', // available values: 'hash', 'history'
+    vueRouterMode: 'history', // available values: 'hash', 'history'
 
     // transpile: false,
 
@@ -84,7 +83,7 @@ module.exports = configure((ctx) => ({
   devServer: {
     https: false,
     port: 8080,
-    open: true, // opens browser window automatically
+    open: false, // opens browser window automatically
   },
 
   // https://v2.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
@@ -144,9 +143,9 @@ module.exports = configure((ctx) => ({
     },
 
     manifest: {
-      name: '774 App',
-      short_name: '774 App',
-      description: '774 App',
+      name: '774incFan WebApp',
+      short_name: '774incFan WebApp',
+      description: '774incFan WebApp',
       display: 'standalone',
       orientation: 'portrait',
       background_color: '#ffffff',
@@ -211,7 +210,7 @@ module.exports = configure((ctx) => ({
     builder: {
       // https://www.electron.build/configuration/configuration
 
-      appId: '774app',
+      appId: '774incfan-webapp',
     },
 
     // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain

@@ -1,8 +1,8 @@
 {
-  "name": "774app",
+  "name": "774incfan-webapp",
   "version": "0.0.1",
-  "description": "774 App",
-  "productName": "774 App",
+  "description": "774incFan WebApp",
+  "productName": "774incFan WebApp",
   "author": "ozelotjp <contact@ozelot.dev>",
   "private": true,
   "scripts": {
@@ -12,11 +12,9 @@
   "dependencies": {
     "@quasar/app": "^3.1.2",
     "@quasar/extras": "^1.11.2",
-    "axios": "^0.22.0",
     "core-js": "^3.18.2",
     "pinia": "^2.0.0-rc.12",
-    "quasar": "^2.1.0",
-    "vue-i18n": "^9.1.9"
+    "quasar": "^2.1.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.15.8",
