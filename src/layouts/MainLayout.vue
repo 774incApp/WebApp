@@ -308,7 +308,6 @@ export default {
       byDate.value = 'Any time';
     }
     function changeDate(option) {
-      byDate.value = option;
       showDateOptions.value = false;
     }
     function toggleLeftDrawer() {
