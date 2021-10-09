@@ -1,4 +1,4 @@
-# 774incFan WebApp
+# 774incApp WebApp
 
 https://774inc.app/
 

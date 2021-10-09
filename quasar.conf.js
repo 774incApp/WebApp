@@ -143,9 +143,9 @@ module.exports = configure((ctx) => ({
     },
 
     manifest: {
-      name: '774incFan WebApp',
-      short_name: '774incFan WebApp',
-      description: '774incFan WebApp',
+      name: '774incApp WebApp',
+      short_name: '774incApp WebApp',
+      description: '774incApp WebApp',
       display: 'standalone',
       orientation: 'portrait',
       background_color: '#ffffff',
@@ -210,7 +210,7 @@ module.exports = configure((ctx) => ({
     builder: {
       // https://www.electron.build/configuration/configuration
 
-      appId: '774incfan-webapp',
+      appId: '774incapp-webapp',
     },
 
     // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain

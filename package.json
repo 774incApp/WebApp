@@ -1,8 +1,8 @@
 {
-  "name": "774incfan-webapp",
+  "name": "774incapp-webapp",
   "version": "0.0.1",
-  "description": "774incFan WebApp",
-  "productName": "774incFan WebApp",
+  "description": "774incApp WebApp",
+  "productName": "774incApp WebApp",
   "author": "ozelotjp <contact@ozelot.dev>",
   "private": true,
   "scripts": {
