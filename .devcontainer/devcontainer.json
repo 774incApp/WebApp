@@ -6,11 +6,9 @@
     "formulahendry.auto-rename-tag",
     // Vue
     "dariofuzinato.vue-peek",
-    // "octref.vetur",
     "johnsoncodehk.volar",
     // ESLint
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
     // Other
     "editorconfig.editorconfig"
   ],
@@ -26,22 +24,7 @@
       "typescriptreact",
       "vue"
     ],
-    // "vetur.validation.template": false,
-    // "vetur.format.enable": false,
-    // "vetur.experimental.templateInterpolationService": true,
-    "volar.autoCompleteRefs": false,
-    "volar.codeLens.scriptSetupTools": false,
-    "volar.codeLens.pugTools": false,
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[vue]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    "typescript.tsdk": "node_modules/typescript/lib"
   },
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
